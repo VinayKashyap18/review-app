@@ -1,0 +1,56 @@
+/* Write your code here */
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img {
+  height: 100px;
+  width: 100px;
+  border-radius: 25px;
+}
+.st {
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto';
+  margin-bottom: 14px;
+}
+.nd {
+  font-size: 25px;
+  color: #171f46;
+  margin-bottom: 14px;
+  text-align: center;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.cont1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 64px;
+}
+.cont2 {
+  display: flex;
+  align-items: center;
+  width: 85%;
+}
+
+@media screen and (min-width: 768px) {
+  .cont2 {
+    width: 45%;
+    min-width: 622px;
+  }
+}
